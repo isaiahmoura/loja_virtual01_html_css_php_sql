@@ -1,0 +1,30 @@
+Requisitos para a loja_virtual
+
+
+- categoria de produtos {
+	- titulo
+}
+
+- produtos {
+	- nome
+	- imagem
+	- preço
+	- quantidade
+	- descriçaõ
+}
+
+- vendas {
+	- identificacao do comprador
+	- identificacao do produto
+	- quantidade comprada
+	- endereço
+	- valor total da venda
+	- forma de pagemento
+
+}
+
+- usuario {
+	-nome
+	-email
+	-senha
+}

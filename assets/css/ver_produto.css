@@ -1,0 +1,177 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+
+.ver_produto {
+	width:90%;
+	overflow:hidden;
+	border:1px solid #2980b9;
+}
+.produtos_content {
+	width:100%;
+	display:flex;
+	align-items:center;
+	border-radius:3px;
+}
+.img_produto img {
+	width:550px;
+	height:450px;
+}
+.img_produto {
+}
+.img_produto img {
+	width:100%;
+}
+.produtos_info {
+	width:45%;
+	height:400px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.produto_nome {
+	width:100%;
+	height:60px;
+	text-transform:uppercase;
+	line-height:60px;
+	font-size:25px;
+	overflow:hidden;
+	border-bottom:5px solid #2980b9;
+	word-wrap:break-word;
+	padding-left:10px;
+}
+.produto_preço {
+	width:100%;
+	height:40px;
+	text-transform:uppercase;
+	line-height:35px;
+	font-size:19px;
+	word-wrap:break-word;
+	padding-left:10px;
+}
+.preco_border {
+	background:royalblue;
+	width:50px;
+	height:10px;
+}
+.produto_vendedor {
+	height:60px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.produto_button {
+	width:100%;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.produto_button a {
+	background:#2980b9;
+	padding:10px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+.separador {
+	background:#ecf0f1;
+	width:100%;
+	height:100px;
+	padding:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.produto_form {
+	width:100%;
+	height:120px;
+	display:flex;
+	padding-left:10px;
+}
+.desc_img {
+	width:50px;
+	height:100%;
+	margin-right:5px;
+	display:flex;
+	justify-content:center;
+}
+.desc_img img {
+	width:50px;
+	height:50px;
+}
+.desc_form {
+	width:95%;
+}
+.desc_form textarea {
+	width:95%;
+	height:50px;
+	outline:none;
+	padding:10px;
+	border:1px solid #2980b9;
+	border-radius:4px;
+}
+.form_button {
+	width:95%;
+	height:50px;
+	justify-content:flex-end;
+	align-items:center;
+}
+.form_button button {
+	background:#2980b9;
+	width:200px;
+	height:40px;
+	border:none;
+	color:white;
+	float:right;
+	cursor:pointer;
+}
+.recomendações {
+	background:#ecf0f1;
+	width:100%;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-left:10px;
+	display:flex;
+	align-items:center;
+}
+.recomendações a {
+	background:#2980b9;
+	padding:10px;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:3px;
+	border:1px solid orange;
+}
+.produto_comentarios {
+	width:100%;
+	height:300px;
+}
+.produto_comentarios_content {
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:flex;
+}
+.comentario_img {
+	width:50px;
+	height:100%;
+	margin-right:5px;
+	display:flex;
+	justify-content:center;
+}
+.comentario_img img {
+	width:50px;
+	height:50px;
+}
+.produto_txt {
+	width:100%;
+	height:50px;
+	padding:5px;
+	border:1px solid gray;
+	border-radius:3px;
+	word-wrap:break-word;
+}
